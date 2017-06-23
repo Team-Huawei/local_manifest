@@ -2,13 +2,13 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/wingtech/wt88047" name="wt88047/android_device_wingtech_wt88047" remote="github" revision="cm-14.1" />
-    <project path="device/cyanogen/msm8916-common" name="LineageOS/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.1" />
+    <project path="device/huawei/scale" name="Huawei-scale/android_device_huawei_scale" remote="github" revision="cm-14.1" />
+    <project path="device/huawei/msm8909-common" name="Huawei-scale/android_device_huawei_msm8909-common" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     <!-- kernel -->
-    <project path="kernel/wingtech/msm8916" name="wt88047/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
+    <project path="kernel/huawei/msm8909" name="Huawei-scale/android_kernel_huawei_msm8909" remote="github" revision="cm-14.1" />
     <!-- vendor -->
-    <project path="vendor/wingtech" name="wt88047/proprietary_vendor_wingtech" remote="github" revision="cm-14.1" />
+    <project path="vendor/huawei" name="Huawei-scale/proprietary_vendor_huawei" remote="github" revision="cm-14.1" />
     <!--extras-->		
     <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
 
