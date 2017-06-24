@@ -11,5 +11,6 @@
     <project path="vendor/huawei" name="Huawei-scale/proprietary_vendor_huawei" remote="github" revision="cm-14.1" />
     <!--extras-->		
     <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
-
+    <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
+    
 </manifest>
