@@ -1,15 +1,15 @@
-LineageOS For Xiaomi Redmi 2/Prime/Pro
-======================================
+LineageOS For Huawei Y6 codename ("scale")
+==========================================
 
 Initializing:
 
 First, create a folder to hold the source code: 
 
-	mkdir ~/lineage
+	mkdir ~/los
 
 Next, naviate into that new directory via the terminal:
 
-	cd ~/lineage
+	cd ~/los
 
 To initialize your local repository using the Turbo ROM trees, use this command:
 
@@ -17,7 +17,7 @@ To initialize your local repository using the Turbo ROM trees, use this command:
 
 Also add the local manifests:
 
-	git clone https://github.com/CarlosArriagaCM/local_manifest -b cm-14.1-scale .repo/local_manifests
+	git clone https://github.com/Huawei-scale/local_manifest -b cm-14.1 .repo/local_manifests
 
 Then sync up with this command:
 
@@ -32,14 +32,26 @@ _Building from source_
 
 First:
 
-	cd ~/lineage
+	cd ~/los
 
 Second:
 
 	$ echo "export USE_CCACHE=1" >> ~/.bashrc
-	$ prebuilts/misc/linux-x86/ccache/ccache -M 50G
+	$ prebuilts/misc/linux-x86/ccache/ccache -M 30G
 
 Third:
 
 	. build/envsetup.sh
-	brunch wt88047
+	brunch scale
+
+-------------
+ 
+_Developers contributors_
+---------------
+
+	@giorgio130
+	@CarlosArriagaCM
+	@DestructoSphere
+	@Runner85sx
+	@nzh21
+
