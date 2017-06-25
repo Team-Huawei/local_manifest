@@ -55,3 +55,5 @@ _Developers contributors_
 	@Runner85sx
 	@nzh21
 
+For Known issues: https://github.com/Huawei-scale/local_manifest/wiki
+
